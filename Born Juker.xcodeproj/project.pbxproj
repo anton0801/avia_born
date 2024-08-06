@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE788E492C6110EE00F44F3A /* JukerSceneMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE788E482C6110EE00F44F3A /* JukerSceneMain.swift */; };
+		EE788E4B2C6151D000F44F3A /* JukerGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE788E4A2C6151CF00F44F3A /* JukerGameView.swift */; };
+		EE788E4D2C61570D00F44F3A /* JukerWinGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE788E4C2C61570D00F44F3A /* JukerWinGameView.swift */; };
+		EE788E4F2C6162B300F44F3A /* JukerLoseGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE788E4E2C6162B200F44F3A /* JukerLoseGameView.swift */; };
+		EE788E512C61647800F44F3A /* PauseGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE788E502C61647800F44F3A /* PauseGameView.swift */; };
+		EEE165A42C5562BB00C1AA47 /* Born_JukerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE165A32C5562BB00C1AA47 /* Born_JukerApp.swift */; };
+		EEE165A62C5562BB00C1AA47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE165A52C5562BB00C1AA47 /* ContentView.swift */; };
+		EEE165A82C5562BE00C1AA47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE165A72C5562BE00C1AA47 /* Assets.xcassets */; };
+		EEE165AB2C5562BE00C1AA47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE165AA2C5562BE00C1AA47 /* Preview Assets.xcassets */; };
+		EEE165B42C55646900C1AA47 /* LevelsJukerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE165B32C55646900C1AA47 /* LevelsJukerView.swift */; };
+		EEE165B72C55650F00C1AA47 /* SettingsJukerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE165B62C55650F00C1AA47 /* SettingsJukerView.swift */; };
+		EEE165BB2C5575D500C1AA47 /* LevelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE165BA2C5575D500C1AA47 /* LevelModel.swift */; };
+		EEE165BD2C5575E500C1AA47 /* LevelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE165BC2C5575E500C1AA47 /* LevelViewModel.swift */; };
+		EEE165BF2C557C0D00C1AA47 /* TL Sans Serif Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEE165BE2C557C0D00C1AA47 /* TL Sans Serif Bold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE788E482C6110EE00F44F3A /* JukerSceneMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JukerSceneMain.swift; sourceTree = "<group>"; };
+		EE788E4A2C6151CF00F44F3A /* JukerGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JukerGameView.swift; sourceTree = "<group>"; };
+		EE788E4C2C61570D00F44F3A /* JukerWinGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JukerWinGameView.swift; sourceTree = "<group>"; };
+		EE788E4E2C6162B200F44F3A /* JukerLoseGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JukerLoseGameView.swift; sourceTree = "<group>"; };
+		EE788E502C61647800F44F3A /* PauseGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseGameView.swift; sourceTree = "<group>"; };
+		EEE165A02C5562BB00C1AA47 /* Born Juker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Born Juker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE165A32C5562BB00C1AA47 /* Born_JukerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Born_JukerApp.swift; sourceTree = "<group>"; };
+		EEE165A52C5562BB00C1AA47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EEE165A72C5562BE00C1AA47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEE165AA2C5562BE00C1AA47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EEE165B32C55646900C1AA47 /* LevelsJukerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsJukerView.swift; sourceTree = "<group>"; };
+		EEE165B62C55650F00C1AA47 /* SettingsJukerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsJukerView.swift; sourceTree = "<group>"; };
+		EEE165BA2C5575D500C1AA47 /* LevelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelModel.swift; sourceTree = "<group>"; };
+		EEE165BC2C5575E500C1AA47 /* LevelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewModel.swift; sourceTree = "<group>"; };
+		EEE165BE2C557C0D00C1AA47 /* TL Sans Serif Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TL Sans Serif Bold.ttf"; sourceTree = "<group>"; };
+		EEE165C02C557C1C00C1AA47 /* Born-Juker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Born-Juker-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEE1659D2C5562BB00C1AA47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE788E422C61109500F44F3A /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				EE788E442C6110A100F44F3A /* GameViews */,
+				EE788E432C61109E00F44F3A /* Scene */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		EE788E432C61109E00F44F3A /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				EE788E482C6110EE00F44F3A /* JukerSceneMain.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		EE788E442C6110A100F44F3A /* GameViews */ = {
+			isa = PBXGroup;
+			children = (
+				EE788E472C6110B100F44F3A /* Additional */,
+				EE788E452C6110A800F44F3A /* Main */,
+			);
+			path = GameViews;
+			sourceTree = "<group>";
+		};
+		EE788E452C6110A800F44F3A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EE788E4A2C6151CF00F44F3A /* JukerGameView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EE788E472C6110B100F44F3A /* Additional */ = {
+			isa = PBXGroup;
+			children = (
+				EE788E4C2C61570D00F44F3A /* JukerWinGameView.swift */,
+				EE788E4E2C6162B200F44F3A /* JukerLoseGameView.swift */,
+				EE788E502C61647800F44F3A /* PauseGameView.swift */,
+			);
+			path = Additional;
+			sourceTree = "<group>";
+		};
+		EEE165972C5562BB00C1AA47 = {
+			isa = PBXGroup;
+			children = (
+				EEE165A22C5562BB00C1AA47 /* Born Juker */,
+				EEE165A12C5562BB00C1AA47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEE165A12C5562BB00C1AA47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEE165A02C5562BB00C1AA47 /* Born Juker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEE165A22C5562BB00C1AA47 /* Born Juker */ = {
+			isa = PBXGroup;
+			children = (
+				EEE165C02C557C1C00C1AA47 /* Born-Juker-Info.plist */,
+				EEE165BE2C557C0D00C1AA47 /* TL Sans Serif Bold.ttf */,
+				EEE165B12C55643D00C1AA47 /* Juker */,
+				EEE165A32C5562BB00C1AA47 /* Born_JukerApp.swift */,
+				EEE165A52C5562BB00C1AA47 /* ContentView.swift */,
+				EEE165A72C5562BE00C1AA47 /* Assets.xcassets */,
+				EEE165A92C5562BE00C1AA47 /* Preview Content */,
+			);
+			path = "Born Juker";
+			sourceTree = "<group>";
+		};
+		EEE165A92C5562BE00C1AA47 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EEE165AA2C5562BE00C1AA47 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EEE165B12C55643D00C1AA47 /* Juker */ = {
+			isa = PBXGroup;
+			children = (
+				EE788E422C61109500F44F3A /* Game */,
+				EEE165B52C55650600C1AA47 /* SettingsJuker */,
+				EEE165B22C55644A00C1AA47 /* LevelsJuker */,
+			);
+			path = Juker;
+			sourceTree = "<group>";
+		};
+		EEE165B22C55644A00C1AA47 /* LevelsJuker */ = {
+			isa = PBXGroup;
+			children = (
+				EEE165B92C5575C800C1AA47 /* ViewModel */,
+				EEE165B82C5575C000C1AA47 /* Model */,
+				EEE165B32C55646900C1AA47 /* LevelsJukerView.swift */,
+			);
+			path = LevelsJuker;
+			sourceTree = "<group>";
+		};
+		EEE165B52C55650600C1AA47 /* SettingsJuker */ = {
+			isa = PBXGroup;
+			children = (
+				EEE165B62C55650F00C1AA47 /* SettingsJukerView.swift */,
+			);
+			path = SettingsJuker;
+			sourceTree = "<group>";
+		};
+		EEE165B82C5575C000C1AA47 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EEE165BA2C5575D500C1AA47 /* LevelModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EEE165B92C5575C800C1AA47 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EEE165BC2C5575E500C1AA47 /* LevelViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEE1659F2C5562BB00C1AA47 /* Born Juker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE165AE2C5562BE00C1AA47 /* Build configuration list for PBXNativeTarget "Born Juker" */;
+			buildPhases = (
+				EEE1659C2C5562BB00C1AA47 /* Sources */,
+				EEE1659D2C5562BB00C1AA47 /* Frameworks */,
+				EEE1659E2C5562BB00C1AA47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Born Juker";
+			productName = "Born Juker";
+			productReference = EEE165A02C5562BB00C1AA47 /* Born Juker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEE165982C5562BB00C1AA47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					EEE1659F2C5562BB00C1AA47 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = EEE1659B2C5562BB00C1AA47 /* Build configuration list for PBXProject "Born Juker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEE165972C5562BB00C1AA47;
+			productRefGroup = EEE165A12C5562BB00C1AA47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEE1659F2C5562BB00C1AA47 /* Born Juker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEE1659E2C5562BB00C1AA47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE165BF2C557C0D00C1AA47 /* TL Sans Serif Bold.ttf in Resources */,
+				EEE165AB2C5562BE00C1AA47 /* Preview Assets.xcassets in Resources */,
+				EEE165A82C5562BE00C1AA47 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEE1659C2C5562BB00C1AA47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE788E512C61647800F44F3A /* PauseGameView.swift in Sources */,
+				EEE165BB2C5575D500C1AA47 /* LevelModel.swift in Sources */,
+				EEE165B42C55646900C1AA47 /* LevelsJukerView.swift in Sources */,
+				EEE165A62C5562BB00C1AA47 /* ContentView.swift in Sources */,
+				EEE165BD2C5575E500C1AA47 /* LevelViewModel.swift in Sources */,
+				EE788E4B2C6151D000F44F3A /* JukerGameView.swift in Sources */,
+				EE788E4D2C61570D00F44F3A /* JukerWinGameView.swift in Sources */,
+				EE788E492C6110EE00F44F3A /* JukerSceneMain.swift in Sources */,
+				EEE165A42C5562BB00C1AA47 /* Born_JukerApp.swift in Sources */,
+				EEE165B72C55650F00C1AA47 /* SettingsJukerView.swift in Sources */,
+				EE788E4F2C6162B300F44F3A /* JukerLoseGameView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EEE165AC2C5562BE00C1AA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEE165AD2C5562BE00C1AA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEE165AF2C5562BE00C1AA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Born Juker/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Born-Juker-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamenation.Born-Juker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEE165B02C5562BE00C1AA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Born Juker/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Born-Juker-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamenation.Born-Juker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEE1659B2C5562BB00C1AA47 /* Build configuration list for PBXProject "Born Juker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE165AC2C5562BE00C1AA47 /* Debug */,
+				EEE165AD2C5562BE00C1AA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE165AE2C5562BE00C1AA47 /* Build configuration list for PBXNativeTarget "Born Juker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE165AF2C5562BE00C1AA47 /* Debug */,
+				EEE165B02C5562BE00C1AA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEE165982C5562BB00C1AA47 /* Project object */;
+}
